@@ -6,11 +6,10 @@ Contextual Bandits" (Bouneffouf & Rish, 2019, arXiv:1904.10040)
 The paper is a SURVEY (no experiments of its own), so this demo reproduces the
 core algorithms it describes, on synthetic data, one module per team member:
 
-  Module 1 (mab)     Classical MAB   : epsilon-greedy, UCB1, Thompson Sampling   (Sec 1)
-  Module 2 (cmab)    Contextual MAB  : LinUCB, Contextual Thompson Sampling      (Sec 1, 2.1, 2.4)
-  Module 3 (nonstat) Non-stationary  : UCB1 vs Discounted-UCB vs Sliding-Window  (Sec 2.8, 2.10 / Table 1 gap)
-  Module 4 (hpo)     Bandit for ML   : Successive Halving (Hyperband core) vs
-                                       random search                             (Sec 3.2)
+  Priyansh Kumar           2025AG05442 Module 1 (mab)     Classical MAB   : epsilon-greedy, UCB1, Thompson Sampling   (Sec 1)
+  Deepak HariHara Sudan N  2025AG05345 Module 2 (cmab)    Contextual MAB  : LinUCB, Contextual Thompson Sampling      (Sec 1, 2.1, 2.4)
+  Subham Sarat Swain       2025AG05650 Module 3 (nonstat) Non-stationary  : UCB1 vs Discounted-UCB vs Sliding-Window  (Sec 2.8, 2.10 / Table 1 gap)
+  Hemant Suryabhan Karwade 2025AG05746 Module 4 (hpo)     Bandit for ML   : Successive Halving (Hyperband core) vs random search (Sec 3.2)
 
 Usage:
     pip install numpy matplotlib
